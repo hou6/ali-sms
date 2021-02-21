@@ -1,0 +1,16 @@
+server:
+  port: 1125
+ali:
+  sms:
+    templateCode: SMS_196656977
+    SignName: houliu
+    regionld: cn-xiangyang
+    accessKeyId: LTAI4GAa48jb1SboK89o31To
+    secret: TLbplAR8ZA8DBk9sbA8GsLP38hXpQl
+    domain: dysmsapi.aliyuncs.com
+    version: 2017-05-25
+    action: SendSms
+
+spring:
+  thymeleaf:
+    cache: false
